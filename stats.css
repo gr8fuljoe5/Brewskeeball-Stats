@@ -1,0 +1,44 @@
+/* global overides */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,th,var{font-style:normal;font-weight:normal;}
+li{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym {border:0;font-variant:normal;}
+sup {vertical-align:text-top;}
+sub {vertical-align:text-bottom;}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}
+input,textarea,select{*font-size:100%;}
+legend{color:#000;}
+table {font-size:inherit;font:100%;}
+pre,code,kbd,samp,tt{font-family:monospace;*font-size:108%;line-height:100%;}
+
+
+	body{font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;font-size:11px;padding:10px;}
+	/*h1.stats{font-size:2em;font-weight:bold; margin:10px 0;}*/
+	h1.stats {background:url('/img/stats_banner.jpg') no-repeat;width:640px;height:151px;text-indent:-9999em;}
+	h2{font-size:22px;text-shadow: #6374AB 2px 2px 2px;}
+	h3{font-size:1em;color:#F90; text-decoration:underline;margin:0px 0 10px 0;}
+	#tabs{margin:0;padding:0;overflow:auto;}
+	#tabs li {float:left;padding:5px 10px;cursor:pointer;border:1px solid #333;background-color:#CCC}
+	#tabs li.active{background-color:#999;}
+	#content{clear:both;}
+	/*#content div{display:none;}*/
+	.stats-table thead th {font-weight:bold;}
+	.stats-table {font-size:10px;margin-bottom:25px;}
+	.stats-table tbody tr{border:1px solid #000;}
+	.stats-table thead tr th{font-size:11px;padding:2px 4px;/*white-space:nowrap;*/vertical-align: bottom;text-align:center;}
+	.stats-table tbody tr.even{background-color:#FFF0DF;}
+	.stats-table tbody tr td {text-align:center; padding:2px 4px; }
+	.stats-table tbody tr:hover{background-color:#CFEEFF};
+	.stats-table tbody tr td.first{font-weight:bold;text-align:left;}
+	.stats-table thead tr th.first{font-weight:bold;text-align:left;}
+	#cherries .first, #fullies .first, #chips .first, #hundos .first, #highfive .first, #foursix .first{width:220px;text-align:left;}
+	#standings .first, #totals .first,  #high-rollers .first{width:250px;text-align:left;}
+	#subnav li {float:left;padding:2px 5px;cursor:pointer;border:1px solid #333;background-color:#999;width:80px;}
+	#subnav li{border-top:none;}
+	#subnav li.active{font-weight:bold;color:#fff;}
+	#subnav{clear:both;height:40px;}
+	.first {font-weight:bold;}
